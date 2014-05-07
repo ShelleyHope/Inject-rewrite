@@ -12,12 +12,10 @@ class	Array
 			self[0..-1].each do |n|
 				acc = yield(acc, n)
 			end
-
 		end
 		
 		acc
-			
+	
 	end
-
 end
 
